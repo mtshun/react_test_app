@@ -18,9 +18,12 @@ Hello.propTypes = {
   name: PropTypes.string
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Hello name="React" />,
-    document.body.appendChild(document.createElement('div')),
-  )
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//   ReactDOM.render(
+//     <Hello name="React" />,
+//     document.body.appendChild(document.createElement('div')),
+//   )
+// })
+
+// hello_react.jsxをインポートした際は、Helloコンポーネントが返されることが期待されるため、export default HelloのようにHelloコンポーネントをエクスポートしています。
+export default Hello
