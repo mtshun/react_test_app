@@ -1,2 +1,17 @@
 <h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+<%= react_component("hello_react", name: 'Shun') %>
+
+<h2>react式 カウントダウン</h2>
+<%= react_component("counter", count: 10) %>
+<h2>hoge react</h2>
+<div><%= react_component("hoge") %></div>
+
+<h2>index.js react</h2>
+<div>
+  <%= react_component('index') %>
+</div>
+
+<h2>todo アプリ</h2>
+<div>
+  <%= react_component('todo') %>
+</div>

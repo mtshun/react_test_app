@@ -8,7 +8,12 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
-require('../components/hello_react.jsx')
+require('../components/counter')
+require('../components/hello_react')
+require('../components/hoge')
+require('../components/index')
+require('../components/todo')
+
 // Support component names relative to this directory:
 var componentRequireContext = require.context("components", true)
 var ReactRailsUJS = require("react_ujs")
