@@ -43,12 +43,35 @@ ul {
     font-size: 12px;
     font-weight: bold;
   }
-
+  input[type="text"] {
+    padding: 2px;
+    margin-right: 5px;
+  }
+  h1>span {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  h1>button {
+    float: right;
+  }
 }
-
 
 .box {
   height: 100px;
   width: 100px;
   background: skyblue;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.cmd {
+  font-size: 12px;
+  cursor: pointer;
+  color: #08c;
+  margin-left: 3px;
 }
